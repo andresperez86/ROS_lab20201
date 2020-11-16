@@ -7,7 +7,7 @@
   <node name="robot_state_publisher" pkg="robot_state_publisher"
         type="robot_state_publisher" />
 
-  <arg name="config_file" value="$(find lab2)/config/fetch_display.rviz"/>
+  <arg name="config_file" value="$(find lab4)/config/fetch_display.rviz"/>
   <node name="rviz" pkg="rviz" type="rviz" respawn="false" output="screen"
         args="-d $(arg config_file)"/>
 </launch>
