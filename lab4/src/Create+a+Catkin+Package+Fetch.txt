@@ -1,0 +1,13 @@
+Create a Catkin Package Fetch :
+
+Steps
+
+(1) cd ~/catkin_ws_apps/src
+(2) catkin_create_pkg package_fetch roscpp rospy sensor_msgs geometry_msgs control_msgs trajectory_msgs actionlib actionlib_msgs 
+(3) cd .. 
+(4) catkin_make
+
+
+
+
+
